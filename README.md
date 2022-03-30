@@ -4,7 +4,8 @@ Updates all git repositories in all projects.
 Assumes the folder structure follows the project/repository structure of Bitbucket.
 
 ## Instructions
-Place gitrefresher.sh in the folder where your Bitbucket projects are stored.
+Place gitrefresher.sh in the root of the folder where your Bitbucket projects are stored.
+
 For example:
 ```
 ├── devops
