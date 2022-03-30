@@ -6,6 +6,7 @@ Assumes the folder structure follows the project/repository structure of Bitbuck
 ## Instructions
 Place gitrefresher.sh in the folder where your Bitbucket projects are stored.
 For example:
+```
 ├── devops
 │   ├── docker
 │   └── konfig
@@ -13,5 +14,6 @@ For example:
     ├── qreg5-startkit
     └── ucrbom
 gitrefresher.sh
+```
 
-When running gitrefresher in the above structure it will update (git pull --rebase) on the current branch, master branch and develop branch
+When running gitrefresher in the above structure it will update (git pull --rebase) on the current branch, master branch and develop branch for devops/docker, devops/konfig, plat/qreg5-startkit, plat/ucrbom
