@@ -8,13 +8,13 @@ Place gitrefresher.sh in the root of the folder where your Bitbucket projects ar
 
 For example:
 ```
-├── devops
-│   ├── docker
-│   └── konfig
-└── plat
-    ├── qreg5-startkit
-    └── ucrbom
+├── PROJECT1
+│   ├── REPOSITORY1
+│   └── REPOSITORY2
+└── PROJECT2
+    ├── REPOSITORY1
+    └── REPOSITORY2
 gitrefresher.sh
 ```
 
-When running gitrefresher in the above structure it will update (git pull --rebase) on the current branch, master branch and develop branch for devops/docker, devops/konfig, plat/qreg5-startkit, plat/ucrbom
+When running gitrefresher in the above structure it will update (git pull --rebase) on the current branch, master branch and develop branch for PROJECT1/REPOSITORY1, PROJECT1/REPOSITORY2, PROJECT2/REPOSITORY1, PROJECT2/REPOSITORY2
